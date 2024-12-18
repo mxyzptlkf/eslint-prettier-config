@@ -1,0 +1,10 @@
+node_modules/
+
+*.[jt]s
+*.html
+*.css
+*.json
+package*
+
+!.vscode/
+!.vscode/settings.json
