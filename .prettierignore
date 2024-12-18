@@ -3,5 +3,4 @@ build
 coverage
 
 *.json
-.vscode
 node_modules
