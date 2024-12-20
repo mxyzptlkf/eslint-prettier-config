@@ -32,4 +32,4 @@ for %%F in (*) do (
 )
 
 echo Changing to parent directory and removing original folder...
-cd .. && rmdir /s /q "%rootFolder%"
+cd .. && rd /s /q "%rootFolder%"
