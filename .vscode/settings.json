@@ -1,4 +1,14 @@
+// -------------------------------------------------------------------------
+// File: VS Code Workspace Settings (settings.json)
+// Author: mxyzptlk
+// Role: Software Developer
+// Description: This file configures workspace-specific settings for
+//              Visual Studio Code to ensure a consistent development 
+//              experience across the team.
+// Last Updated: December 17, 2024
+// -------------------------------------------------------------------------
+
 {
-    "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
 }
