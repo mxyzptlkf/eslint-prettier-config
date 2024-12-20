@@ -1,6 +1,10 @@
 @echo off
 set "rootFolder=%cd%"
 
+:: Move config.bat first then override
+echo Moving config.bat
+move "config.bat" ..\ > nul
+
 echo Moving directories to parent folder...
 for /d %%D in (*) do (
     echo Moving directory: %%D
