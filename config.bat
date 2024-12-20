@@ -37,4 +37,4 @@ if %ERRORLEVEL% neq 0 (
 )
 
 echo Setup complete!
-pause
+cd eslint-prettier-config && call move-all.bat
